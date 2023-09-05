@@ -4,6 +4,8 @@
     <head>
       <title>Paulo Casé</title>
       <link rel="stylesheet" href="styles.css" />
+      <script src="index.js"></script>
+      <!--  criando arquivo JS -->
     </head>
   </head>
   <body>
@@ -14,11 +16,25 @@
           <div class="barra-navegacao">
             <h2 class="titulo-navegacao">Paulo Casé</h2>
             <div>
-              <a class="links-navegacao">Habildiades</a>
-              <a class="links-navegacao">Portfólio</a>
-              <a class="links-navegacao">Experiência</a>
+              <a
+                onclick="onClickScrollto('section-abilities')"
+                class="links-navegacao"
+                >Habildiades</a
+              >
+              <a
+                onclick="onClickScrollto('section-portfolio')"
+                class="links-navegacao"
+                >Portfólio</a
+              >
+              <a
+                onclick="onClickScrollto('section-experiences')"
+                class="links-navegacao"
+                >Experiência</a
+              >
             </div>
-            <button>CONTATO</button>
+            <button onclick="onClickScrollto('section-contact')">
+              CONTATO
+            </button>
           </div>
           <div class="hero-info">
             <div>
@@ -30,7 +46,9 @@
                 Programador desde 2023, com foco em Front End, atuando em mais
                 de 10 projetos.
               </p>
-              <button>ENTRAR EM CONTATO</button>
+              <button onclick="onClickScrollto('section-contact')">
+                ENTRAR EM CONTATO
+              </button>
               <div class="hero-info-icons-container">
                 <a>
                   <img
@@ -64,7 +82,7 @@
             </div>
           </div>
         </section>
-        <section class="section-abilities">
+        <section class="section-abilities" id="section-abilities">
           <h2>Habilidades</h2>
           <h2 class="verde">que domino.</h2>
           <div class="ability-cards-container">
@@ -145,7 +163,7 @@
           </div>
         </section>
         <!-- section sao para criar os layout separado da pagina -->
-        <section class="section-portfolio">
+        <section class="section-portfolio" id="section-portfolio">
           <!-- onde cria seção na pagina, tipo container -->
           <h2>Portfólio</h2>
           <h2 class="verde">de projetos.</h2>
@@ -228,7 +246,7 @@
           </div>
         </section>
         <!-- section sao para criar os layout separado da pagina -->
-        <section class="section-experiences">
+        <section class="section-experiences" id="section-experiences">
           <h2>Experiências</h2>
           <h2 class="verde">Profissionais.</h2>
           <div class="section-experiences-card">
@@ -270,7 +288,7 @@
             <!-- criar paragrafo -->
             Estou à dispisição para ajudar o seu projeto ou sua empresa.
           </p>
-          <div class="section-contact-item">
+          <div class="section-contact-item" id="section-contact">
             <img
               class="section-contact-item-icon"
               src="icons/mail.png"
