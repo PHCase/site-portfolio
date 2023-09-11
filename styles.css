@@ -3,7 +3,7 @@
 /* corpo da pagina, fundo */
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #fefefe;
+  background-color: #ebe8e8;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; /* nao ficar espaço no eixo x, ou seja, nao sobrar scroll em baixo */
@@ -151,7 +151,7 @@ footer {
 
 .hero-info-image {
   height: 100%;
-  width: 542px;
+  width: 380px;
   border-radius: 40px;
   border-color: #219653;
   border-width: 4px;
