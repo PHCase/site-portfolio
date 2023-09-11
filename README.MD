@@ -7,6 +7,10 @@ Tendo o objetivo principal criar um site com minhas informações profissionais.
 
 <img src="https://github.com/PHCase/site-portfolio/blob/main/icons/preview.png" height="500">
 
+## Link
+
+https://phcase.github.io/site-portfolio/
+
 ## Principais conceitos aplicado
 
 - Flexbox
